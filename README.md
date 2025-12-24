@@ -39,7 +39,7 @@ brew install jefferyabbott/devbldr/devbldr
 devbldr /path/to/project
 
 # Or in current directory
-devbldr .
+devbldr
 ```
 
 ## Updating
@@ -59,4 +59,4 @@ brew untap jefferyabbott/devbldr
 ## License
 
 MIT License
-# homebrew-devbldr
+
