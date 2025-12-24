@@ -2,13 +2,17 @@
 
 This is the official Homebrew tap for [DevBldr](https://github.com/jefferyabbott/devbldr), a local-first AI coding assistant that runs entirely on your machine using Ollama LLMs.
 
+## Support This Project
+
+If you find DevBldr useful, consider buying the developer a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/jefferyabbott)
+
 ## Requirements
 
-- Apple Silicon Mac (M1/M2/M3/M4)
+- Apple Silicon Mac
 - macOS 12.0 or later
 - [Ollama](https://ollama.ai) installed
-
-> **Note**: Intel Macs are not supported due to insufficient Ollama performance.
 
 ## Installation
 
@@ -49,12 +53,6 @@ brew upgrade devbldr
 brew uninstall devbldr
 brew untap jefferyabbott/devbldr
 ```
-
-## Support This Project
-
-If you find DevBldr useful, consider buying the developer a coffee!
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/jefferyabbott)
 
 ## License
 
