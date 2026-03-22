@@ -1,15 +1,15 @@
 class Devbldr < Formula
   desc "Local-first AI coding assistant using Ollama LLMs"
   homepage "https://github.com/jefferyabbott/homebrew-devbldr"
-  version "2.0.0"
+  version "2.1.0"
   license "MIT"
 
   # ARM64 only - Intel Macs are not supported
   depends_on arch: :arm64
   depends_on macos: :monterey
 
-  url "https://github.com/jefferyabbott/homebrew-devbldr/releases/download/v2.0.0/devbldr-2.0.0-macos-arm64.tar.gz"
-  sha256 "2ac2f48bb7a1508091ce7dcd5cea8003644482b3355c23c6704938198704e38f"
+  url "https://github.com/jefferyabbott/homebrew-devbldr/releases/download/v2.1.0/devbldr-2.1.0-macos-arm64.tar.gz"
+  sha256 "8d0d034136261ffd54fb0e37c816768e6be96b87338dc18d4b3cea82dfdd98aa"
 
   def install
     bin.install "devbldr"
